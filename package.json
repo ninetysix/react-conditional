@@ -1,5 +1,5 @@
 {
-  "name": "react-conditional",
+  "name": "@ninetysix/react-conditional",
   "description": "A package that allows easy and readable react conditions without the need for ternary operators.",
   "version": "0.1.0",
   "author": "Ninety Six <contact@xcvi.io>",
@@ -18,13 +18,15 @@
   "homepage": "https://github.com/ninetysix/react-conditional#readme",
   "main": "dist/index.js",
   "devDependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "prop-types": "^15.6.2",
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "prop-types": "^15.6.2"
   }
 }
