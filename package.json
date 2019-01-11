@@ -16,7 +16,7 @@
     "url": "https://github.com/ninetysix/react-conditional/issues"
   },
   "homepage": "https://github.com/ninetysix/react-conditional#readme",
-  "main": "dist/Conditional.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
