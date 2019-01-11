@@ -1,7 +1,7 @@
 {
   "name": "@ninetysix/react-conditional",
   "description": "A package that allows easy and readable react conditions without the need for ternary operators.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ninety Six <contact@xcvi.io>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
