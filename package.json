@@ -3,6 +3,11 @@
   "description": "A package that allows easy and readable react conditions without the need for ternary operators.",
   "version": "0.1.0",
   "author": "Ninety Six <contact@xcvi.io>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/@babel/cli/bin/babel src/ --out-dir dist/",
+    "prepublishOnly": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ninetysix/react-conditional.git"
